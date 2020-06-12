@@ -228,4 +228,4 @@ Project Link: [https://github.com/cbaron3/safewalk-release](https://github.com/c
 [license-url]: https://github.com/cbaron3/safewalk-release/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cbaron3
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.PNG
