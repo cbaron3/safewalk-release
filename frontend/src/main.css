@@ -1,0 +1,123 @@
+/* Full website settings */
+* { 
+  padding: 0; 
+  margin: 0; 
+}
+
+.main-bg-blue {
+  background-color: #242F3E;
+}
+
+.main-bg-gray {
+  background-color: #f2f2f2;
+}
+
+.main-btn {
+  color: #242F3E;
+  border: 2px solid #242F3E;/* this is for button border*/
+}
+
+.main-go-btn {
+  background: #242F3E;
+  color: #FDE9A4;
+}
+
+.main-btn:hover, .main-go-btn:hover  {
+  opacity: 0.8;
+}
+
+.main-suggestions {
+  opacity: 0.9;
+}
+
+.main-suggestions:hover {
+  opacity: 1;
+}
+
+/* Not going to touch contact form CSS cause it works */
+.contact-form {
+  width: 600px;
+}
+
+
+/* Style inputs, select elements and textareas */
+.contact-form input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+.contact-form label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.main-contact-error-btn {
+  background-color: rgb(185, 63, 63);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.main-contact-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, .contact-form .main-contact-error-btn, .contact-form .main-contact-btn {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    width: 200px;
+  }
+}
+
+
+
+#root, html, body {
+    min-height: 100% !important;
+    height: 100%;
+    width: 100%;
+}

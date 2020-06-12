@@ -1,0 +1,11 @@
+packages:
+  yum:
+    postgresql96-devel: []
+
+option_settings:
+  "aws:elasticbeanstalk:container:python":
+    WSGIPath: application.py
+    NumProcesses: 4
+    NumThreads: 20
+  "aws:elasticbeanstalk:application:environment":
+    EXAMPLE_ENV_VAR: env_var_value
