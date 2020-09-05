@@ -163,7 +163,7 @@ virtualenv venv
 ##### Linux/mac
 ```
 virtualenv venv
-source venv/Scripts/activate
+source venv/bin/activate
 ```
 
 <!-- USAGE EXAMPLES -->
