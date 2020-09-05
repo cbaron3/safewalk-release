@@ -36,7 +36,7 @@
   <h3 align="center">SafeWalk London</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Website that helps you identify your safest walk home in London, Ontario, Canada.
     <br />
     <a href="https://github.com/cbaron3/safewalk-release"><strong>Explore the docs »</strong></a>
     <br />
